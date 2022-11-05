@@ -1,8 +1,12 @@
+body {
+    padding: 20px 50px;
+}
+h1 {
+    text-align: center;
+}
 #game {
     position: relative;
     border: 1px solid #000;
-    margin: 50px auto;
+    margin: 20px auto;
 }
-#game>div {
-    position: absolute;
-}
+#game>div { position: absolute }
