@@ -115,7 +115,7 @@ const bricks = {
             item.elem.style.height = item.height + 'px';
             item.elem.style.background = item.color;
             item.elem.style.left = item.x + 'px';
-            item.elem.style.top = item.y + 'px';
+            item.elem.style.top = item.y + 'px'
         });
     },
     collision() {
