@@ -97,13 +97,13 @@ const bricks = {
                     this.elem = null;
                     this.width = (game.width - bricks.gap * (bricks.sira + 1)) / bricks.sira;
                     this.height = this.width / 4;
-                    this.color = 'orange';
+                    this.color = '#99dfff';
                     this.x = j * this.width + (j + 1) * bricks.gap;
                     this.y = i * this.height + (i + 1) * bricks.gap;
                     this.status = 1;
                 }
                 this.arr.push(brick);
-                game.elem.innerHTML += `<div id="${brick.id}"></div>`;
+                game.elem.innerHTML += `<div class="td" id="${brick.id}"></div>`;
             }
         }
         this.show();

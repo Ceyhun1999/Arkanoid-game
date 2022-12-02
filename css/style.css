@@ -1,12 +1,25 @@
 body {
     padding: 20px 50px;
-}
-h1 {
+    background: #000;
     text-align: center;
 }
+h1 {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 3px 3px 20px #99dfff,
+    -2px 1px 30px #99dfff;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
 #game {
     position: relative;
     border: 1px solid #000;
     margin: 20px auto;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 3px 3px 20px #99dfff,
+    -2px 1px 30px #99dfff;
 }
-#game>div { position: absolute }
+#game>div { position: absolute; border-radius: 10px; }
+.td { box-shadow: 0 0 10px #333 }
