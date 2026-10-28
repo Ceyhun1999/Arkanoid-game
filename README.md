@@ -1,35 +1,35 @@
 # Arkanoid
 
-Аркада в духе Super Breakout: отбивайте шарик платформой и разбивайте все кирпичи.
+An arcade game in the spirit of Super Breakout: bounce the ball with the paddle and break every brick.
 
-**[Играть онлайн →](https://ceyhun1999.github.io/Arkanoid-game/)**
+**[Play online →](https://ceyhun1999.github.io/Arkanoid-game/)**
 
-<p align="center"><img src="screenshots/game.png" width="520" alt="Arkanoid"></p>
+<p align="center"><img src="screenshots/game.png" width="520" alt="Arkanoid screenshot"></p>
 
-## Как играть
+## How to play
 
-- **←** / **→** — двигать платформу
-- Шарик отскакивает от стен, платформы и кирпичей; за каждый разбитый кирпич начисляются очки
-- Разбили все кирпичи — победа, пропустили шарик — игра окончена
+- **←** / **→** move the paddle
+- The ball bounces off walls, the paddle and bricks; each broken brick adds to your score
+- Break all the bricks to win; let the ball fall and it's game over
 
-## Структура
+## Project structure
 
 ```
 ├── index.html
 ├── css/
-└── javascript.js   # объекты ball, bar и bricks, столкновения
+└── javascript.js   # ball, bar and bricks objects, collisions
 ```
 
-## Запуск
+## Run locally
 
-Игра работает без сборки. Откройте `index.html` в браузере или поднимите локальный сервер:
+No build step. Open `index.html` in a browser, or start a local server:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-и перейдите на http://localhost:8000.
+Then go to http://localhost:8000.
 
-## Стек
+## Tech stack
 
-HTML · CSS · JavaScript (без библиотек)
+HTML · CSS · JavaScript (no libraries)
