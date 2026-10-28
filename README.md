@@ -1,3 +1,35 @@
-https://ceyhun1999.github.io/Arkanoid-game/
+# Arkanoid
 
- 
+Аркада в духе Super Breakout: отбивайте шарик платформой и разбивайте все кирпичи.
+
+**[Играть онлайн →](https://ceyhun1999.github.io/Arkanoid-game/)**
+
+<p align="center"><img src="screenshots/game.png" width="520" alt="Arkanoid"></p>
+
+## Как играть
+
+- **←** / **→** — двигать платформу
+- Шарик отскакивает от стен, платформы и кирпичей; за каждый разбитый кирпич начисляются очки
+- Разбили все кирпичи — победа, пропустили шарик — игра окончена
+
+## Структура
+
+```
+├── index.html
+├── css/
+└── javascript.js   # объекты ball, bar и bricks, столкновения
+```
+
+## Запуск
+
+Игра работает без сборки. Откройте `index.html` в браузере или поднимите локальный сервер:
+
+```bash
+python3 -m http.server 8000
+```
+
+и перейдите на http://localhost:8000.
+
+## Стек
+
+HTML · CSS · JavaScript (без библиотек)
